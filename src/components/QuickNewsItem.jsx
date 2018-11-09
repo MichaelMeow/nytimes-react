@@ -6,7 +6,7 @@ function QuickNewsItem(props){
   return (
     <div>
       <div className="quickNewsInnerBlock cell">
-        <img src={props.imgURL} alt="quicknews image" />
+        <img src={props.imgURL} alt="quicknews image" className="quickImg"/>
         <div className="quickNewsText">
           <div className="sansHeadline">
             {props.title}
@@ -16,7 +16,7 @@ function QuickNewsItem(props){
           </div>
         </div>
       </div>
-      <style jsx>{`
+      <style jsx global>{`
         .sansHeadline{
           font-weight: bold;
         }
@@ -25,7 +25,7 @@ function QuickNewsItem(props){
           flex-direction: row;
           justify-content: space-between;
         }
-        img{
+        .quickImg{
           width: 59px;
           height: 59px;
         }
