@@ -1,12 +1,10 @@
 import React from 'react';
-import Editorial from './Editorial';
+import EditorialList from './EditorialList';
 
 function Editorials(){
   return (
     <div>
-      <Editorial/>
-      <Editorial/>
-      <Editorial/>
+      <EditorialList/>
       <style jsx>{`
         
       `}</style>

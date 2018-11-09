@@ -2,9 +2,6 @@ import React from 'react';
 import ArticleList from './ArticleList';
 
 
-
-
-
 function ArticleGroup(){
   return (
     <div>
