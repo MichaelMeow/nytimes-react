@@ -1,17 +1,18 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
-function QuickNewsItem(){
+function QuickNewsItem(props){
   return (
     <div>
       <div className="quickNewsInnerBlock cell">
-        <img src="https://static01.nyt.com/images/2018/11/09/us/politics/09us-ambriefing-whitaker-AMCORE/09us-ambriefing-whitaker-AMCORE-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="quicknews image" />
+        <img src={props.imgURL} alt="quicknews image" />
         <div className="quickNewsText">
           <div className="sansHeadline">
-            Title
+            {props.title}
           </div>
           <div className="sansSub">
-            Subtitle
+            {props.subtitle}
           </div>
         </div>
       </div>
@@ -51,7 +52,13 @@ function QuickNewsItem(){
         }
       `}</style>
     </div>
+    
   );
 }
+QuickNewsItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  imgURL: PropTypes.string.isRequired
+};
 
 export default QuickNewsItem;

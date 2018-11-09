@@ -17,7 +17,7 @@ function Header(){
           <span>ESPAÑOL</span>
           <span>中文(CHINESE)</span>
         </div>
-        <div clasNames="upperRightButtons">
+        <div className="upperRightButtons">
           <button type="button" name="button">SUBSCRIBE NOW</button>
           <button type="button" name="button">LOG IN</button>
           <i className="fas fa-user fa-lg"></i>
