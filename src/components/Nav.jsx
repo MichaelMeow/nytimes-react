@@ -34,7 +34,7 @@ function Nav(){
           font-family: sans-serif;
         }
         span {
-          padding: .6%;
+          padding: 6px;
           font-size: 11px;
         }
       `}</style>

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Nav from './Nav';
 import QuickNews from './QuickNews';
+import News from './News';
 
 function App(){
   return (
@@ -9,6 +10,7 @@ function App(){
       <Header/>
       <Nav/>
       <QuickNews/>
+      <News/>
       
       <style jsx global>{`
         .cell {
