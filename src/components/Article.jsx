@@ -8,13 +8,13 @@ function Article(props){
         <img src={props.imageURL} alt="" />
       </div>
       <div className="caption">
-      {props.caption}
+        {props.caption}
         <div className="captionPhoto">
           {props.captionCredit}
         </div>
       </div>
       <div className="headline1">
-      {props.title}
+        {props.title}
       </div>
       <div className="subheadline">
         <div>
@@ -72,5 +72,15 @@ function Article(props){
     </div>
   );
 }
+
+Article.propTypes = {
+  imageURL: PropTypes.string,
+  caption: PropTypes.string,
+  captionCredit: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
+  time: PropTypes.string.isRequired
+
+};
 
 export default Article;
