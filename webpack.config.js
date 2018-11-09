@@ -51,7 +51,8 @@ module.exports = {
             "react",
           ],
           plugins: [
-            "react-hot-loader/babel"
+            "react-hot-loader/babel",
+            "styled-jsx/babel"
           ]
         }
       }
@@ -64,7 +65,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template:'template.ejs',
       appMountId: 'react-app-root',
-      title: 'The New York Times - FAKE',
+      title: 'nytimes_fake',
       filename: resolve(__dirname, "build", "index.html"),
     }),
   ]

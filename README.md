@@ -1,4 +1,4 @@
-# The New York Times - FAKE
+# nytimes_fake
 
 * _npm Install_
 * _Make sure atom react package is version 0.17.0_
