@@ -4,7 +4,7 @@ function Editorial(){
   return (
     <div>
       Editorial
-      <style jsx global>{`
+      <style jsx>{`
         
       `}</style>
     </div>

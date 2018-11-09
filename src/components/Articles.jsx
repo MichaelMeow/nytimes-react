@@ -1,13 +1,11 @@
 import React from 'react';
-import Article from './Article';
+import ArticleGroup from './ArticleGroup';
 
 function Articles(){
   return (
     <div>
-      <Article/>
-      <Article/>
-      <Article/>
-      <style jsx global>{`
+      <ArticleGroup/>
+      <style jsx>{`
         
       `}</style>
     </div>

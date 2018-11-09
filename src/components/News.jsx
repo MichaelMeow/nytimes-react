@@ -12,7 +12,7 @@ function News(){
         <Editorials/>
       </div>
       
-      <style jsx global>{`
+      <style jsx>{`
         .mainLeftContent{
           width: 66vw;
         }

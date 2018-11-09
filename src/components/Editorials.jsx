@@ -7,7 +7,7 @@ function Editorials(){
       <Editorial/>
       <Editorial/>
       <Editorial/>
-      <style jsx global>{`
+      <style jsx>{`
         
       `}</style>
     </div>
