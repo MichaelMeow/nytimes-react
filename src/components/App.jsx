@@ -5,6 +5,7 @@ import Nav from './Nav';
 import QuickNews from './QuickNews';
 import News from './News';
 import Admin from './Admin';
+import AdminButton from './AdminButton';
 
 function App(){
   return (
@@ -14,6 +15,7 @@ function App(){
       <QuickNews/>
       <News/>
       <Switch>
+        <Route exact path='/' component={AdminButton} />
         <Route path='/admin' component={Admin} />
       </Switch>
       

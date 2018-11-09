@@ -27,7 +27,7 @@ var articleList = [
     time: 'Nov. 8'
   },
   {
-    imageURL: 'Judge Blocks Keystone XL Pipeline in Setback for Trump Energy Agenda',
+    imageURL: '',
     caption: '',
     captionCredit: '',
     title: 'Judge Blocks Keystone XL Pipeline in Setback for Trump Energy Agenda',
