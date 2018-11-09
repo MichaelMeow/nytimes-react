@@ -73,4 +73,13 @@ function Editorial(props){
   );
 }
 
+Editorial.propTypes = {
+  authorImageURL: PropTypes.string,
+  imageURL: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
+  time: PropTypes.string,
+  author: PropTypes.string.isRequired,
+};
+
 export default Editorial;
