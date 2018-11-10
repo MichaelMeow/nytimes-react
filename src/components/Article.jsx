@@ -68,6 +68,9 @@ function Article(props){
         font-family: 'Domine', serif;
         margin-bottom: 10px;
       }
+      img {
+        max-width: 500px;
+      }
       `}</style>
     </div>
   );
